@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Azura Year 7</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="shortcut icon" type="image/x-icon" href="azura/azuralogo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="studentsstyle.css">
+    <style>
+    .bodybg{
+    background-color: #07a1b3; /* For browsers that do not support gradients */
+    background-image: linear-gradient(180deg, #2d6970, #81d4de, #07a1b3);
+}
+  .profile-card{
+    background-color: #1e6169;
+    border-color: #1e6169;
+    margin-left: 20px;
+}
+
+  .profile-card h5{
+    color: #bbbfed;
+    font-weight:600;
+}
+  .profile-card .card-img-block {
+    width: 91%;
+}
+  ::selection {
+    color: white;
+    background: #568287;
+}
+  </style>
+
+</head>
+<body class="bodybg">
+<!--navbar-->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark p-md-3">
+      <div class="container">
+        <a class="navbar-brand" href="AzuraY7.html" style="font-size: 25px; text-shadow: 7px 7px 10px #81d4de;"><img src="azura/azuralogo.png" width="50" height="40" class="d-inline-block rounded-2" alt="logo"><b>Azura Year 7</b></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <div class="mx-auto"></div>
+          <ul class="navbar-nav">
+            <li class="nav-item">
+            <a href="Index.html" class="nav-link text-white">Home</a>
+            </li>
+            <li class="nav-item">
+          <a class="nav-link text-white" href="Aboutus.html">About us</a>
+        </li>  
+         <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown">Teachers</a>
+          <ul class="dropdown-menu" style="background-color: #629aa1;">
+            <li><a class="dropdown-item" href="Science.html">Science Department</a></li>
+            <li><a class="dropdown-item" href="#">English Department</a></li>
+            <li><a class="dropdown-item" href="#">Math Department</a></li>
+            <li><a class="dropdown-item" href="#">ICT Department</a></li>
+            <li><a class="dropdown-item" href="#">Global Perspective Department</a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown">Year 9</a>
+          <ul class="dropdown-menu" style="background-color: #629aa1;">
+            <li><a class="dropdown-item" href="CrimsonYear9.html">Crimson</a></li>
+            <li><a class="dropdown-item" href="HelioY9.html">Helio</a></li>
+            <li><a class="dropdown-item" href="SangriaYear9.html">Sangria</a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown">Year 8</a>
+          <ul class="dropdown-menu" style="background-color: #629aa1;">
+            <li><a class="dropdown-item" href="CrimsonY8.html">Crimson</a></li>
+            <li><a class="dropdown-item" href="IndigoY8.html">Indigo</a></li>
+            <li><a class="dropdown-item" href="AzuraY8.html">Azura</a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown">Year 7</a>
+          <ul class="dropdown-menu" style="background-color: #629aa1;">
+            <li><a class="dropdown-item disabled text-light" href="AzuraY7.html">Azura</a></li>
+            <div class="dropdown-divider"></div>
+            <li><a class="dropdown-item" href="CrimsonY7.html">Crimson</a></li>
+            <li><a class="dropdown-item" href="HelioY7.html">Helio</a></li>
+            <li><a class="dropdown-item" href="IndigoY7.html">Indigo</a></li>
+          </ul>
+        </li>
+ <li class="nav-item">
+          <a class="nav-link text-white" href="ContactUs.html">Contact Us</a>
+        </li>
+      
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <script type="text/javascript">
+      var nav = document.querySelector('nav');
+
+      window.addEventListener('scroll', function () {
+        if (window.pageYOffset > 100) {
+          nav.classList.add('bg-dark', 'shadow');
+        } else {
+          nav.classList.remove('bg-dark', 'shadow');
+        }
+      });
+    </script>
+<!--end of nav bar-->
+<br>
+<!--students-->
+<div class="container mt-3">
+  <div class="row my-3 text-center">
+
+    <div class="col-lg-3 col-sm-12 col-md-6 mt-5">
+            <div class="card profile-card">
+                <div class="card-img-block">
+                    <img class="card-img-top" src="blackhat.jpg" alt="Myat Bhone Khant">
+                </div>
+                    <div class="card-body pt-2">
+                    <h5 class="card-title"><b>Myat Bhone Khant</b></h5>
+                    <p class="card-text text-light">"..."</p>
+                    
+                  </div>
+                </div>
+              </div>
+                  <div class="col-lg-3 col-sm-12 col-md-6 mt-5">
+            <div class="card profile-card">
+                <div class="card-img-block">
+                    <img class="card-img-top" src="blueglasses.jpg" alt="Wai Yan Thwin">
+                </div>
+                    <div class="card-body pt-2">
+                    <h5 class="card-title"><b>Wai Yan Thwin</b></h5>
+                    <p class="card-text text-light">"I will one day be an astronomer no one can stop me"</p>
+                    
+                  </div>
+                </div>
+                </div>
+                  <div class="col-lg-3 col-sm-12 col-md-6 mt-5">
+            <div class="card profile-card">
+                <div class="card-img-block">
+                    <img class="card-img-top" src="azura/aeindaniy7.jpg" alt="Aeindani Khin">
+                </div>
+                    <div class="card-body pt-2">
+                    <h5 class="card-title"><b>Aeindani Khin</b></h5>
+                    <p class="card-text text-light">"Don't worry, if you're a good person, you'll get what you deserve, the misunderstandings and problems are just temporary. So try to focus on the present and enjoy the precious moment."</p>
+                    
+                  </div>
+                </div>
+                </div>
+                  <div class="col-lg-3 col-sm-12 col-md-6 mt-5">
+            <div class="card profile-card">
+                <div class="card-img-block">
+                    <img class="card-img-top" src="bookpfp.jpg" alt="Myat Shwe Hmone Thet">
+                </div>
+                    <div class="card-body pt-2">
+                    <h5 class="card-title"><b>Myat Shwe Hmone Thet</b></h5>
+                    <p class="card-text text-light">"..."</p>
+                    
+                  </div>
+                </div>
+                </div>
+              </div>
+
+          <div class="row my-3 text-center">
+
+    <div class="col-lg-3 col-sm-12 col-md-6 mt-5">
+            <div class="card profile-card">
+                <div class="card-img-block">
+                    <img class="card-img-top" src="butterflypfp.jpg" alt="Shune Lai Win">
+                </div>
+                    <div class="card-body pt-2">
+                    <h5 class="card-title"><b>Shune Lai Win</b></h5>
+                    <p class="card-text text-light">"...""
+                  </div>
+                </div>
+              </div>
+                  <div class="col-lg-3 col-sm-12 col-md-6 mt-5">
+            <div class="card profile-card">
+                <div class="card-img-block">
+                    <img class="card-img-top" src="bluehat.jpg" alt="Taw Win Thu Naing">
+                </div>
+                    <div class="card-body pt-2">
+                    <h5 class="card-title"><b>Taw Win Thu Naing</b></h5>
+                    <p class="card-text text-light">"I want to start mass murder, genocide, breaking and entering..... (many other crimes) with 2 days of political knowledge - Bhone Myat Paing 2023" </p>
+                    
+                  </div>
+                </div>
+                </div>
+                  <div class="col-lg-3 col-sm-12 col-md-6 mt-5">
+            <div class="card profile-card">
+                <div class="card-img-block">
+                    <img class="card-img-top" src="brownhatpfp.jpg" alt="Zaw Lin Htet">
+                </div>
+                    <div class="card-body pt-2">
+                    <h5 class="card-title"><b>Zaw Lin Htet</b></h5>
+                    <p class="card-text text-light">"..."</p>
+                    
+                  </div>
+                </div>
+                </div>
+                  <div class="col-lg-3 col-sm-12 col-md-6 mt-5">
+            <div class="card profile-card">
+                <div class="card-img-block">
+                    <img class="card-img-top" src="brownpfp.jpg" alt="Linn Yaung Myint Mo">
+                </div>
+                    <div class="card-body pt-2">
+                    <h5 class="card-title"><b>Linn Yaung Myint Mo</b></h5>
+                    <p class="card-text text-light">"..."</p>
+                    
+                  </div>
+                </div>
+                </div>
+              </div>
+
+        <div class="row my-3 text-center">
+                <div class="col-lg-4 col-sm-12 col-md-6 mt-5">
+            <div class="card profile-card">
+                <div class="card-img-block">
+                    <img class="card-img-top" src="azura/zinthutay7.png" alt="Zin Thuta">
+                </div>
+                    <div class="card-body pt-2">
+                    <h5 class="card-title"><b>Zin Thuta</b></h5>
+                    <p class="card-text text-light">"At the start of the campus everyone is strange but now I am ok."</p>
+                    
+                  </div>
+                </div>
+              </div>
+                  <div class="col-lg-4 col-sm-12 col-md-6 mt-5">
+            <div class="card profile-card">
+                <div class="card-img-block">
+                    <img class="card-img-top" src="angelpfp.jpg" alt="Shin Thant Thu">
+                </div>
+                    <div class="card-body pt-2">
+                    <h5 class="card-title"><b>Shin Thant Thu</b></h5>
+                    <p class="card-text text-light">"..."</p>
+                    
+                  </div>
+                </div>
+                </div>
+                  <div class="col-lg-4 col-sm-12 col-md-6 mt-5">
+            <div class="card profile-card">
+                <div class="card-img-block">
+                    <img class="card-img-top" src="azura/bhonemyaty7.png" alt="Bhone Myat Paing">
+                </div>
+                    <div class="card-body pt-2">
+                    <h5 class="card-title"><b>Bhone Myat Paing</b></h5>
+                    <p class="card-text text-light">"Despite the ups and downs of Myanmar's Education and the Country's instability, our teacher remained dedicated and never gave up on teaching us. They turned this digital school year into a special time of learning and exploration that will stay in our memories forever!"</p>
+                    
+                  </div>
+                </div>
+                </div>
+              </div>
+              <br>
+  <br><br>
+</div>
+<!--end of students-->
+<!--footer-->
+<footer>
+    <div class="container">
+        <div class="row">
+        <div class="col-lg-4 col-md-6 col-sm-12 text-white">
+        <img src="logo.png" alt="Logo of the website" class="footerimg">
+        <a href="https://docs.google.com/document/d/1YaqZqusQOPPB7iVyyqywH9cmMsQ75PJhzVOUWcb_GSA/edit?usp=sharing" class="link-light" style="text-decoration: none;"><h5>References</h5></a>
+        <hr> 
+        <div>
+        <p class="text-secondary">&copy;Copyright 2023. All rights reserved. Developed by RANGOON</p>
+        </div>
+        </div>
+                  
+<div class="col-lg-4 col-md-6 col-sm-12"> 
+    <div class=" text-center">
+     <img id="middle" src="logo.png" alt="Logo of the website">
+     <h3 class="text-white">RANGOON</h3>
+     </div>
+     </div>
+
+    <div class="col-lg-4 col-md-12 col-sm-12 text-white my-3"> 
+    <p class="text-center">Our offical RANGOON accounts</p>
+    <hr>
+    <div class="justify-content-end">    
+    <h5>Follow Us on</h5>
+    <a href="https://www.facebook.com/profile.php?id=100095309273698&sk"> <img src="facebookpbl.png" alt="facebook link of the website" class="footerimg"></a>
+    <a href="https://www.youtube.com/"> <img src="youtubepbl.png" alt="youtube link of the website" class="footerimg"></a>
+    <a href="https://twitter.com/the_rangoon?s=20"> <img src="xpbl.png" alt="x link of the website" class="footerimg"></a>
+    <a href="https://www.edusn.co.uk/"> <img src="EDUSN.png" alt="EDUSN link of the website" class="footerimg"></a>
+
+    </div>
+    </div>
+    </div>
+    </div>
+</footer>
+<!--end of footer-->
+</body>
+</html>

@@ -1,0 +1,55 @@
+
+#logo {
+    width: 70%;
+}
+
+#house {
+    width: 90%;
+}
+
+#dis {
+    width: 90%;
+}
+
+#middle {
+    width: 40%;
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: whitesmoke;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: whitesmoke;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: whitesmoke;
+}
+
+body {
+    background-color: #6f8f72;
+    font-family: 'Playfair Display', serif;
+}
+.box {
+    width: 101%;
+}
+
+.disabledbox {
+    height: 500px; 
+    width: 1240px;
+}
+
+.input {
+    width: 380px
+}
+footer {
+    background-color: black;
+    padding: 85px 0;
+}
+    .footerimg {
+    width: 10%;
+}
+    #middle {
+    width: 40%;
+}
